@@ -5,4 +5,4 @@ help:
 
 .PHONY: package
 package: ## Package the extension
-	zip -r -FS ../backtab-extension.zip * --exclude '*.git*' --exclude 'Makefile'
+	zip -r -FS ../backtab-extension.zip * --exclude '*.git*' --exclude 'Makefile' --exclude 'README.adoc'
