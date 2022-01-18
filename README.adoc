@@ -1,0 +1,23 @@
+= Backtab extension for web browers
+
+Sometimes, you click on a link on a webpage and realize just after that that you wanted to keep the previous page open and open this page in a new tab.
+This web browser extension allows to do this with a single click.
+
+== Sideloading the extension for testing
+
+=== On Firefox
+
+- Browse to `about:debugging`
+- Select `This Firefox`
+- Click on `Load Temporary Add-on...`
+- Browse to the `manifest.json` file (at the root of this project)
+
+=== On Chrome
+
+- Browse to `chrome://extensions`
+- Click on `Load unpacked`
+- Browse to this project directory
+
+== Useful links
+
+* https://developer.mozilla.org/en-US/docs/Mozilla/Add-ons/WebExtensions/API/tabs[tabs - Mozilla | MDN]
